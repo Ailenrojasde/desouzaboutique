@@ -1,0 +1,172 @@
+body {
+    background-color: #D9D0CC;
+    margin: 0;
+}
+#hola{
+    color: black;
+}
+#tittle{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;  
+}
+#fotito{
+    height: 250px;
+    max-height: 240px;
+    margin-top: 43px;
+}
+header img{
+    position: relative;
+  text-align: center;
+  width: 98%;
+  height: 30vh;
+  
+}
+
+
+#menu {
+    font-size: 18px;
+    color: #000000;
+    margin-top: -18px;
+}
+section p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B1B0B0;
+    color: #67564F;
+    padding: 10px 0;
+    font-family: serif;
+    margin: 0;
+    
+}
+footer div {
+    flex: 1;
+    text-align:center;
+
+}
+header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden; 
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    background: transparent;
+    z-index: 10; 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: transparent;
+    border-radius: 5px;
+}
+#miDesierto {
+    height: 250px;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#miCampo {
+    height: 250px;
+    width: 250px;
+}
+#pintura4{
+    display: flex;
+    margin: 0 auto;
+    float:top;
+    height: 80%;
+    width: 80%;
+}
+.foto {
+    font-family: "Playfair Display", serif;
+    color: #473D39;
+     text-align: center; 
+        max-width: fit-content;
+        margin: auto; 
+        font-size: 13px;
+         line-height: 0,5;
+}
+.imageenes {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 210px;
+    font-family: "Playfair Display", serif;
+}
+
+.imageenes div{
+    margin:10px;
+    flex-wrap: nowrap;   
+}
+
+.big-button {
+    width: 200px;
+    height: 50px;
+}
+.suscribirse {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.texto {
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 20px; 
+    padding: 5px 10px; 
+    height: 40px;
+    background-color: #6A534B; 
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mensaje {
+    display: flex; 
+    background-color: #6A534B;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}

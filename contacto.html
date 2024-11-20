@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="header">
+            <div class="contenedor-menu">
+                <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+                <ul id="menuu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cuadros.html">Cuadros</a></li>
+                    <li><a href="talleres.html">Talleres</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="calendario.html">Calendario</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h1>CONTACTATE</h1>
+                <p>Completa el formulario para ponerte en contacto con nosotros. Te responderemos lo antes posible.</p>
+            </div>
+
+            <div class="contact-form">
+                <div class="contact-box background-contacto">
+                    <form action="#" method="post" class="casillas">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                        <input type="email" id="mail" name="mail" placeholder="Mail" required>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje..." required></textarea>
+                    </form>
+                </div>
+                <button type="submit" class="boton-contact">ENVIAR</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>CONTACTANOS</div>
+        <div>AYUDA</div>
+        <div>SOCIAL</div>
+        <div>COMUNIDAD</div>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
